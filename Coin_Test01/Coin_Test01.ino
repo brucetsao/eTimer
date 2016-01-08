@@ -11,8 +11,8 @@ void setup()
 
   // Print a message to the LCD.
   lcd.backlight();
-  lcd.print("Hello, world!");
-  pinMode(3,INPUT);
+  lcd.print("Coin Test");
+  //pinMode(3,INPUT);
  attachInterrupt(1, addcoin, RISING);
   //attachInterrupt(1, addcoin, CHANGE);
  // attachInterrupt(RFIDIntrupNumber, ReadRfidID, CHANGE);
